@@ -1,0 +1,63 @@
+.prodLine_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    overflow: hidden;
+    .box_3 {
+        margin-right: 20px;
+        margin-bottom: 26px;
+        .b_content_3 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: auto;
+            h2 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                display: flex;
+                align-items: center;
+                color: #191919;
+            }
+        }
+    }
+}
+
+.b_content_3 > button {
+    width: 144.34px;
+    height: 43.2px;
+    background: rgba(255, 255, 255, 0.002);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #191919;
+    border: 0;
+    cursor: pointer;
+}
+
+.slide-products_3 {
+    display: flex;
+    gap: 21px;
+}
+
+.circle-image {
+    width: 208px;
+    height: 208px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
+
+.circle-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide {
+    display: flex;
+}

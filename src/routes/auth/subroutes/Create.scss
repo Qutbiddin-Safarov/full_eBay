@@ -1,0 +1,75 @@
+.context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #191919;
+        margin-bottom: 24px;
+    }
+}
+.create > form{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.input{
+    background: #F7F7F7;
+    border: 1px solid #8F8F8F;
+    border-radius: 8px;
+}
+.input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #191919;
+}
+
+.name{
+    width: 138px;
+    height: 40px;
+}
+.large{
+    width: 300px;
+    height: 40px; 
+    margin-bottom: 24px;   
+}
+
+.names{
+    display: flex;
+    margin-bottom: 24px;
+    gap: 0 15px;
+}
+
+.subBtn{
+    height: 48px;
+    background: #C7C7C7;
+    border: 1px solid #C7C7C7;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 95px;
+    cursor: pointer;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}

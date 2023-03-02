@@ -1,0 +1,80 @@
+.shop_btn{
+  display: block;
+  height: 43px;
+  background: rgba(255, 255, 255, 0.002);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+}
+
+.main_shop_btn{
+  display: block;
+  width: 141.58px;
+  height: 43px;
+  background: rgba(255, 255, 255, 0.002);
+  border: 1px solid #5C1B05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  display: flex;
+  gap: 0 50px;
+}
+
+.banner-text{
+  margin-right: 70px;
+  margin-top: 15px;
+  margin-left: 32px;
+}
+.categories_list{
+  display: flex;
+  gap: 0 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.categories_list > li > a{
+  text-decoration: none;
+  color: #555555;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.main_text{
+  width: 290px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  color: #5C1B05;
+}
+
+.subtitle{
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #5C1B05;
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+}
+
+.img_box{
+  width: 200px;
+  border: 1px solid #5C1B05;
+}
